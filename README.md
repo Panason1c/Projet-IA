@@ -46,6 +46,7 @@ L'application s'ouvre dans le navigateur a l'adresse `http://localhost:8501`
 ### 3. Generer une biographie (optionnel)
 - Cliquez sur **Generer la biographie**
 - Necessite Ollama avec le modele Gemma3 installe
+https://docs.ollama.com/quickstart#python
 
 ## Structure du projet
 
