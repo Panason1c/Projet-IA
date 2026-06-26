@@ -1,0 +1,54 @@
+{
+  "session_id": "20260626_113604",
+  "prenom": "jean",
+  "timestamp": "2026-06-26T11:36:04.392998",
+  "reponses_likert": {
+    "L01": 3,
+    "L02": 3,
+    "L03": 3,
+    "L04": 3,
+    "L05": 3,
+    "L06": 3
+  },
+  "reponses_ouvertes": {
+    "O01": "je ne sais pas ",
+    "O02": "je ne sais pas ",
+    "O03": "je ne sais pas ",
+    "O04": "je ne sais pas ",
+    "O05": "je ne sais pas ",
+    "O06": "je ne sais pas "
+  },
+  "reponses_choix": {
+    "CM01": [],
+    "CM02": [],
+    "CM03": [],
+    "CM04": [],
+    "CM05": []
+  },
+  "scores_blocs": {
+    "1": 0.30861952900886536,
+    "2": 0.3117278516292572,
+    "3": 0.4621177613735199,
+    "4": 0.5242648720741272,
+    "5": 0.43733659386634827,
+    "6": 0.42930686473846436
+  },
+  "score_global": 0.41222891211509705,
+  "top_metiers": [
+    {
+      "job_id": "J08",
+      "title": "Research Scientist in AI",
+      "score": 0.3588560876938013
+    },
+    {
+      "job_id": "J05",
+      "title": "Data Engineer",
+      "score": 0.3544050785047667
+    },
+    {
+      "job_id": "J04",
+      "title": "NLP Engineer",
+      "score": 0.3459025758963365
+    }
+  ]
+}

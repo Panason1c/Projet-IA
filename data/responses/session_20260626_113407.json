@@ -1,0 +1,70 @@
+{
+  "session_id": "20260626_113407",
+  "prenom": "jean",
+  "timestamp": "2026-06-26T11:34:07.346904",
+  "reponses_likert": {
+    "L01": 3,
+    "L02": 3,
+    "L03": 3,
+    "L04": 3,
+    "L05": 3,
+    "L06": 3
+  },
+  "reponses_ouvertes": {
+    "O01": "je ne sais pas ",
+    "O02": "je ne sais pas ",
+    "O03": "je ne sais pas ",
+    "O04": "je ne sais pas ",
+    "O05": "je ne sais pas ",
+    "O06": "je ne sais pas "
+  },
+  "reponses_choix": {
+    "CM01": [
+      "Python (pandas, numpy)",
+      "Visualisation avec Matplotlib / Seaborn / Plotly",
+      "Statistiques descriptives et inférentielles"
+    ],
+    "CM02": [
+      "AutoML (H2O, AutoSklearn)",
+      "MLflow ou autre outil de tracking d'expériences"
+    ],
+    "CM03": [
+      "spaCy ou NLTK",
+      "Systèmes RAG (Retrieval-Augmented Generation)",
+      "LangChain ou frameworks LLM"
+    ],
+    "CM04": [
+      "Hadoop ou ecosystème Big Data"
+    ],
+    "CM05": [
+      "Git et GitFlow",
+      "Docker et containerisation"
+    ]
+  },
+  "scores_blocs": {
+    "1": 0.3107058107852936,
+    "2": 0.3026016354560852,
+    "3": 0.38274237513542175,
+    "4": 0.4307439625263214,
+    "5": 0.39850693941116333,
+    "6": 0.35462450981140137
+  },
+  "score_global": 0.36332087218761444,
+  "top_metiers": [
+    {
+      "job_id": "J05",
+      "title": "Data Engineer",
+      "score": 0.479301250406674
+    },
+    {
+      "job_id": "J04",
+      "title": "NLP Engineer",
+      "score": 0.44982839547670805
+    },
+    {
+      "job_id": "J02",
+      "title": "Machine Learning Engineer",
+      "score": 0.43874879479408263
+    }
+  ]
+}
