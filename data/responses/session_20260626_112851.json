@@ -1,0 +1,65 @@
+{
+  "session_id": "20260626_112851",
+  "prenom": "jean",
+  "timestamp": "2026-06-26T11:28:51.001556",
+  "reponses_likert": {
+    "L01": 3,
+    "L02": 2,
+    "L03": 2,
+    "L04": 4,
+    "L05": 2,
+    "L06": 2
+  },
+  "reponses_ouvertes": {
+    "O01": "e",
+    "O02": "e",
+    "O03": "e",
+    "O04": "e",
+    "O05": "e",
+    "O06": "e"
+  },
+  "reponses_choix": {
+    "CM01": [
+      "Python (pandas, numpy)"
+    ],
+    "CM02": [
+      "AutoML (H2O, AutoSklearn)"
+    ],
+    "CM03": [
+      "Hugging Face Transformers"
+    ],
+    "CM04": [
+      "Airflow ou autre orchestrateur de workflows",
+      "Cloud data warehouses (BigQuery, Redshift, Snowflake)"
+    ],
+    "CM05": [
+      "CI/CD (GitHub Actions, GitLab CI)"
+    ]
+  },
+  "scores_blocs": {
+    "1": 0.2639138698577881,
+    "2": 0.2718020975589752,
+    "3": 0.27885445952415466,
+    "4": 0.33092695474624634,
+    "5": 0.33056309819221497,
+    "6": 0.29696571826934814
+  },
+  "score_global": 0.2955043663581212,
+  "top_metiers": [
+    {
+      "job_id": "J05",
+      "title": "Data Engineer",
+      "score": 0.4733001334326608
+    },
+    {
+      "job_id": "J07",
+      "title": "MLOps Engineer",
+      "score": 0.41718998551368713
+    },
+    {
+      "job_id": "J08",
+      "title": "Research Scientist in AI",
+      "score": 0.4119854454810803
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+CompetencyID,Competency,BlockID,BlockName
+C01,Analyse descriptive et exploration de données,1,Data Analysis
+C02,Créer et interpréter des visualisations de données,1,Data Analysis
+C03,Calculer et valider des métriques statistiques,1,Data Analysis
+C04,Formuler des questions analytiques pertinentes,1,Data Analysis
+C05,Synthétiser les insights en recommandations actionnables,1,Data Analysis
+C06,Maîtriser SQL pour requêtes analytiques complexes,1,Data Analysis
+C07,Développer des modèles de régression et classification,2,Machine Learning
+C08,Évaluer la performance et valider les modèles,2,Machine Learning
+C09,Effectuer l'ingénierie des features et sélection de variables,2,Machine Learning
+C10,"Utiliser les frameworks ML (scikit-learn, TensorFlow, PyTorch)",2,Machine Learning
+C11,Implémenter des modèles de deep learning et réseaux de neurones,2,Machine Learning
+C12,Optimiser les hyperparamètres et ajuster les modèles,2,Machine Learning
+C13,Traiter et nettoyer les données textuelles,3,NLP
+C14,Effectuer la tokenisation et lemmatisation,3,NLP
+C15,Construire des modèles de classification textuelle,3,NLP
+C16,Réaliser une analyse de sentiment,3,NLP
+C17,"Utiliser les modèles de language (BERT, GPT, etc.)",3,NLP
+C18,Implémenter des systèmes de question-réponse,3,NLP
+C19,Concevoir et optimiser les pipelines de données,4,Data Engineering
+C20,Gérer et orchestrer les workflows d'extraction de données,4,Data Engineering
+C21,Implémenter les ELT/ETL avec des outils modernes,4,Data Engineering
+C22,Configurer et maintenir les bases de données relationnelles,4,Data Engineering
+C23,"Utiliser les technologies de big data (Spark, Hadoop)",4,Data Engineering
+C24,Assurer la qualité et la fiabilité des données,4,Data Engineering
+C25,Développer en Python pour des applications data,5,Software Development & Programming
+C26,Maîtriser Git et le contrôle de version,5,Software Development & Programming
+C27,Écrire du code propre et bien documenté,5,Software Development & Programming
+C28,Implémenter des tests unitaires et d'intégration,5,Software Development & Programming
+C29,Développer des APIs REST pour services de données,5,Software Development & Programming
+C30,Utiliser des conteneurs Docker et orchestration,5,Software Development & Programming
+C31,Planifier et structurer les projets data,6,Project Management & Soft Skills
+C32,Communiquer les résultats techniques aux stakeholders,6,Project Management & Soft Skills
+C33,Collaborer efficacement en équipe pluridisciplinaire,6,Project Management & Soft Skills
+C34,"Gérer les risques et la conformité (RGPD, légalité)",6,Project Management & Soft Skills
+C35,Négocier les priorités et les livrables,6,Project Management & Soft Skills
+C36,Animer une retrospective et des sessions d'amélioration continue,6,Project Management & Soft Skills
