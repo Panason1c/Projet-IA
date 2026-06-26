@@ -17,8 +17,8 @@ Mini-agent RAG : questionnaire hybride → analyse sémantique SBERT locale → 
 
 ```bash
 # 1. Cloner le dépôt
-git clone <url-du-repo>
-cd AISCA
+git clone https://github.com/Panason1c/Projet-IA.git
+cd Projet-IA
 
 # 2. Créer un environnement virtuel (isole les dépendances du système)
 python -m venv .venv
@@ -77,7 +77,6 @@ AISCA/
 ├── README.md                   # Présentation, installation, lancement (ce fichier)
 ├── ARCHITECTURE.md             # Architecture détaillée et découpage en lots
 ├── .env.example                # Modèle de configuration (clé API Gemini)
-├── .gitignore                  # Fichiers et dossiers exclus du dépôt
 │
 ├── src/                        # Code métier (testable indépendamment de Streamlit)
 │   ├── config.py               # Constantes : chemins, seuils, poids des blocs
@@ -100,14 +99,12 @@ AISCA/
 │   ├── RAPPORT.md              # Rapport de projet (+ mapping RNCP Bloc 2)
 │   └── PRESENTATION.md         # Trame de présentation (≈ 12 slides)
 │
-├── tests/                      # Tests unitaires pytest
-│   ├── test_referentiel.py
-│   ├── test_nlp_engine.py
-│   ├── test_scoring.py
-│   ├── test_recommender.py
-│   └── test_cache.py
-│
-└── notebooks/                  # (optionnel) exploration SBERT / calibrage des seuils
+└── tests/                      # Tests unitaires pytest
+    ├── test_referentiel.py
+    ├── test_nlp_engine.py
+    ├── test_scoring.py
+    ├── test_recommender.py
+    └── test_cache.py
 ```
 
 > **Généré automatiquement** (exclu du dépôt via `.gitignore`, ne pas versionner) :
