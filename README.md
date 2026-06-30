@@ -34,6 +34,7 @@ python -m pip install -r requirements.txt
 
 # 5. (Optionnel) Configurer la clé API Gemini — l'app fonctionne sans
 #   Windows : copy .env.example .env   |   Linux/macOS : cp .env.example .env
+#   'https://aistudio.google.com/app/apikey'
 # Puis éditer .env et renseigner :  GEMINI_API_KEY=<votre_clé>
 ```
 
