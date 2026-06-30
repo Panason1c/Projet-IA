@@ -130,18 +130,10 @@ def fusionner_reponses(
         if texte:
             textes.append(texte)
 
-    # Conversion Likert -> phrase (le score numérique est contextualisé)
-    LIKERT_PHRASES = {
-        1: "je ne maîtrise pas du tout cette compétence",
-        2: "j'ai une très faible connaissance de cette compétence",
-        3: "j'ai quelques notions de base dans ce domaine",
-        4: "je maîtrise plutôt bien cette compétence",
-        5: "je suis très compétent et expérimenté dans ce domaine",
-    }
-    for question_id, valeur in reponses_likert.items():
-        phrase = LIKERT_PHRASES.get(int(valeur), "")
-        if phrase:
-            textes.append(phrase)
+    # Les scores Likert sont des auto-évaluations numériques, pas du contenu
+    # sémantique. Les phrases génériques qu'ils produisaient ("je suis très
+    # compétent dans ce domaine") ont une similarité cosinus proche de zéro
+    # avec les textes de compétences spécifiques et faisaient chuter les scores.
 
     # Choix multiples -> textes de compétences sélectionnées
     for _, selections in reponses_choix.items():

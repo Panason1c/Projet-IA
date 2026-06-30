@@ -1,0 +1,54 @@
+{
+  "session_id": "20260630_124004",
+  "prenom": "dddd",
+  "timestamp": "2026-06-30T12:40:04.581728",
+  "reponses_likert": {
+    "L01": 3,
+    "L02": 3,
+    "L03": 3,
+    "L04": 3,
+    "L05": 3,
+    "L06": 3
+  },
+  "reponses_ouvertes": {
+    "O01": "I performed complete exploratory data analyses using pandas and numpy on datasets exceeding one million rows. I use advanced SQL for analytical queries and Matplotlib, Seaborn, and Plotly for visualization. I built interactive Power BI dashboards to deliver actionable insights to business stakeholders.",
+    "O02": " trained classification and regression models using scikit-learn, XGBoost, and PyTorch to detect anomalies in production systems. I use MLflow for experiment tracking and evaluate models using AUC, F1-score, and RMSE metrics. I also performed hyperparameter tuning and deep learning fine-tuning with TensorFlow and Keras.",
+    "O03": "I built RAG systems using LangChain and HuggingFace Transformers. I fine-tuned BERT models for text classification and sentiment analysis. I use spaCy for tokenization and lemmatization, and SBERT embeddings for semantic search applications.",
+    "O04": "I designed ETL pipelines using Apache Airflow and PySpark for large-scale data processing. I worked with BigQuery and Snowflake as cloud data warehouses and used dbt for data transformation. I also implemented Kafka streams for real-time data ingestion.",
+    "O05": "I developed REST APIs using FastAPI deployed with Docker and Kubernetes. I apply best practices including unit testing with pytest, CI/CD pipelines with GitHub Actions, and Git version control with GitFlow. All code is documented, tested, and production-ready.",
+    "O06": "I coordinated a team of four data scientists using Agile and Scrum methodologies to deliver a recommendation engine on schedule. I managed stakeholder communication, sprint planning, risk management, and GDPR compliance for all data processing workflows."
+  },
+  "reponses_choix": {
+    "CM01": [],
+    "CM02": [],
+    "CM03": [],
+    "CM04": [],
+    "CM05": []
+  },
+  "scores_blocs": {
+    "1": 0.20387034118175507,
+    "2": 0.338340163230896,
+    "3": 0.28508374094963074,
+    "4": 0.29172664880752563,
+    "5": 0.2824782133102417,
+    "6": 0.17560218274593353
+  },
+  "score_global": 0.26285021503766376,
+  "top_metiers": [
+    {
+      "job_id": "J02",
+      "title": "Machine Learning Engineer",
+      "score": 0.3052754335105419
+    },
+    {
+      "job_id": "J03",
+      "title": "Data Scientist",
+      "score": 0.28298824108563936
+    },
+    {
+      "job_id": "J07",
+      "title": "MLOps Engineer",
+      "score": 0.282472127540545
+    }
+  ]
+}

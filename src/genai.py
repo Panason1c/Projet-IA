@@ -84,9 +84,27 @@ def _appeler_gemini(prompt: str) -> str:
 
     try:
         reponse = client.generate_content(prompt)
-        return reponse.text.strip()
+
+        # Accès direct à .text (peut lever ValueError si contenu bloqué)
+        texte = reponse.text
+        if texte:
+            return texte.strip()
+
+        # Fallback : parcourir les candidates si .text est vide
+        if hasattr(reponse, "candidates") and reponse.candidates:
+            for candidate in reponse.candidates:
+                try:
+                    parts = candidate.content.parts
+                    if parts:
+                        return parts[0].text.strip()
+                except Exception:
+                    continue
+
+        logger.warning("Gemini a retourné une réponse vide ou bloquée.")
+        return ""
+
     except Exception as e:
-        logger.error(f"Erreur lors de l'appel Gemini : {e}")
+        logger.error(f"Erreur Gemini : {type(e).__name__} — {e}")
         return ""
 
 
