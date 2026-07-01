@@ -109,6 +109,26 @@ def page_questionnaire(blocs: dict, metiers: dict):
     )
     st.markdown("---")
 
+    # ---- Bouton de remplissage automatique ----
+    if st.button("🧪 Remplir profil test expert", type="secondary"):
+        st.session_state["prenom_input"] = "TestExpert"
+        for q in QUESTIONS_LIKERT:
+            st.session_state[f"likert_{q['id']}"] = 5
+        _reponses_test = {
+            "O01": "I performed complete exploratory data analyses using pandas and numpy on datasets exceeding one million rows. I use advanced SQL for analytical queries and Matplotlib, Seaborn, and Plotly for visualization. I built interactive Power BI dashboards to deliver actionable insights to business stakeholders.",
+            "O02": "I trained classification and regression models using scikit-learn, XGBoost, and PyTorch to detect anomalies in production systems. I use MLflow for experiment tracking and evaluate models using AUC, F1-score, and RMSE metrics. I also performed hyperparameter tuning and deep learning fine-tuning with TensorFlow and Keras.",
+            "O03": "I built RAG systems using LangChain and HuggingFace Transformers. I fine-tuned BERT models for text classification and sentiment analysis. I use spaCy for tokenization and lemmatization, and SBERT embeddings for semantic search applications.",
+            "O04": "I designed ETL pipelines using Apache Airflow and PySpark for large-scale data processing. I worked with BigQuery and Snowflake as cloud data warehouses and used dbt for data transformation. I also implemented Kafka streams for real-time data ingestion.",
+            "O05": "I developed REST APIs using FastAPI deployed with Docker and Kubernetes. I apply best practices including unit testing with pytest, CI/CD pipelines with GitHub Actions, and Git version control with GitFlow. All code is documented, tested, and production-ready.",
+            "O06": "I coordinated a team of four data scientists using Agile and Scrum methodologies to deliver a recommendation engine on schedule. I managed stakeholder communication, sprint planning, risk management, and GDPR compliance for all data processing workflows.",
+        }
+        for q_id, texte in _reponses_test.items():
+            st.session_state[f"ouverte_{q_id}"] = texte
+        for q in QUESTIONS_CHOIX:
+            for i in range(len(q["options"])):
+                st.session_state[f"choix_{q['id']}_{i}"] = True
+        st.rerun()
+
     with st.form(key="questionnaire_form"):
 
         # ---- Informations personnelles ----
@@ -116,6 +136,7 @@ def page_questionnaire(blocs: dict, metiers: dict):
         prenom = st.text_input(
             "Votre prénom (optionnel)",
             placeholder="Ex : Marie",
+            key="prenom_input",
             help="Utilisé uniquement pour personnaliser les résultats."
         )
 
@@ -566,6 +587,12 @@ def afficher_sidebar():
         st.markdown("---")
         st.markdown("**Modèle NLP :** `all-MiniLM-L6-v2`")
         st.markdown("**GenAI :** Gemini 2.5 Flash (free-tier)")
+        st.markdown("---")
+        from src.genai import _charger_cle_api
+        if _charger_cle_api():
+            st.markdown("🟢 Clé Gemini active")
+        else:
+            st.markdown("🔴 Clé Gemini absente")
         st.markdown("---")
         st.caption("EFREI — RNCP40875 — Bloc 2")
 

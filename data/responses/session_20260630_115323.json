@@ -1,0 +1,69 @@
+{
+  "session_id": "20260630_115323",
+  "prenom": "azeaze",
+  "timestamp": "2026-06-30T11:53:23.566508",
+  "reponses_likert": {
+    "L01": 3,
+    "L02": 3,
+    "L03": 3,
+    "L04": 3,
+    "L05": 3,
+    "L06": 3
+  },
+  "reponses_ouvertes": {
+    "O01": "e",
+    "O02": "e",
+    "O03": "e",
+    "O04": "ee",
+    "O05": "e",
+    "O06": "e"
+  },
+  "reponses_choix": {
+    "CM01": [
+      "Visualisation avec Matplotlib / Seaborn / Plotly",
+      "R pour l'analyse statistique"
+    ],
+    "CM02": [
+      "scikit-learn (régression, classification, clustering)",
+      "XGBoost / LightGBM / CatBoost"
+    ],
+    "CM03": [
+      "Hugging Face Transformers",
+      "spaCy ou NLTK"
+    ],
+    "CM04": [
+      "Kafka ou systèmes de streaming",
+      "Cloud data warehouses (BigQuery, Redshift, Snowflake)"
+    ],
+    "CM05": [
+      "Docker et containerisation",
+      "APIs REST ou gRPC"
+    ]
+  },
+  "scores_blocs": {
+    "1": 0.265776664018631,
+    "2": 0.2646651566028595,
+    "3": 0.30062949657440186,
+    "4": 0.3788459599018097,
+    "5": 0.32219111919403076,
+    "6": 0.29674866795539856
+  },
+  "score_global": 0.3048095107078552,
+  "top_metiers": [
+    {
+      "job_id": "J07",
+      "title": "MLOps Engineer",
+      "score": 0.45289237661795184
+    },
+    {
+      "job_id": "J04",
+      "title": "NLP Engineer",
+      "score": 0.43587926488656265
+    },
+    {
+      "job_id": "J05",
+      "title": "Data Engineer",
+      "score": 0.43416700618607657
+    }
+  ]
+}

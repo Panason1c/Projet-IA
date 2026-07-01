@@ -203,11 +203,12 @@ def scores_par_bloc(
         # Matrice de similarité (n_reponses x n_competences)
         matrice_sim = calculer_similarites(emb_utilisateur, emb_bloc)
 
-        # Pour chaque réponse : max de similarité avec les compétences du bloc
-        max_par_reponse = matrice_sim.max(axis=1)
+        # Pour chaque compétence : max de similarité avec toutes les réponses
+        # (mesure de couverture : est-ce qu'au moins une réponse couvre la compétence ?)
+        max_par_competence = matrice_sim.max(axis=0)
 
-        # Score du bloc = moyenne des max
-        score_bloc = float(np.mean(max_par_reponse))
+        # Score du bloc = moyenne des couvertures par compétence
+        score_bloc = float(np.mean(max_par_competence))
         scores[block_id] = max(0.0, score_bloc)  # plancher à 0
 
     return scores

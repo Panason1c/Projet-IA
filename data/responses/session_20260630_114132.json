@@ -1,0 +1,78 @@
+{
+  "session_id": "20260630_114132",
+  "prenom": "jean",
+  "timestamp": "2026-06-30T11:41:32.345293",
+  "reponses_likert": {
+    "L01": 3,
+    "L02": 3,
+    "L03": 3,
+    "L04": 3,
+    "L05": 3,
+    "L06": 3
+  },
+  "reponses_ouvertes": {
+    "O01": "J'ai construit un pipeline de données urbaines sur Paris en architecture médaillon (Bronze/Silver/Gold), avec une dizaine de tables PostgreSQL couvrant les transactions immobilières (DVF), le logement social, les loyers encadrés, la population, les revenus, le transport et les espaces verts, ainsi que des collections MongoDB pour les données géospatiales (GeoJSON). En parallèle, dans le cadre de mon alternance, j'ai réécrit des transformations ETL Power Query en SQL optimisé (CTE, fonctions fenêtrées) pour améliorer la performance et la maintenabilité des traitements.",
+    "O02": "Dans le cadre d'un projet académique M1 Data Engineering, j'ai développé une plateforme d'optimisation du ROI marketing : preprocessing avec ColumnTransformer, entraînement et comparaison de quatre modèles (régression linéaire, arbre de décision, Random Forest, MLP), interprétabilité des résultats avec SHAP, et un dashboard Streamlit permettant de simuler l'impact de différents scénarios sur le ROI.",
+    "O03": "Je n'ai pas encore d'expérience approfondie en NLP — précise-moi si tu as un projet à mentionner (un futur projet GenAI par exemple), sinon on peut laisser ce champ court ou vide.",
+    "O04": "J'ai mis en place une infrastructure Docker Compose combinant PostgreSQL 15 et MongoDB pour un projet de données urbaines, avec gestion stricte de l'immuabilité de la couche Bronze. J'ai également débuggé des problèmes d'insertion via psycopg2 (syntaxe FLOAT PostgreSQL, correspondance des noms de colonnes) et prévu l'exposition des données via une API auto-générée avec PostgREST, alimentant une visualisation cartographique interactive (Kepler.gl/Grafana).",
+    "O05": "Dans le cadre de mon projet de données urbaines parisiennes, j'ai structuré une infrastructure Docker Compose (PostgreSQL 15 + MongoDB) avec un schéma Bronze respectant des règles strictes d'immuabilité, et des scripts d'ingestion Python (psycopg2) gérant proprement les erreurs de typage et de correspondance de colonnes. Je prévois d'exposer les données Gold via une API auto-générée avec PostgREST, consommée par une visualisation cartographique interactive.\nSi tu as un exemple plus proche du modèle attendu (API REST développée avec FastAPI, tests, déploiement Docker), précise-le-moi et je réécris la réponse pour qu'elle colle exactement à ce que tu as fait — c'est important de ne pas surreprésenter une compétence que tu n'as pas encore mise en pratique (FastAPI vs PostgREST, par exemple, ce n'est pas la même chose).",
+    "O06": ""
+  },
+  "reponses_choix": {
+    "CM01": [
+      "Python (pandas, numpy)",
+      "SQL avancé et optimisation de requêtes",
+      "Visualisation avec Matplotlib / Seaborn / Plotly",
+      "Statistiques descriptives et inférentielles",
+      "R pour l'analyse statistique"
+    ],
+    "CM02": [
+      "TensorFlow / Keras",
+      "PyTorch",
+      "XGBoost / LightGBM / CatBoost",
+      "AutoML (H2O, AutoSklearn)"
+    ],
+    "CM03": [
+      "Hugging Face Transformers",
+      "Fine-tuning de modèles BERT/GPT"
+    ],
+    "CM04": [
+      "Apache Spark ou PySpark",
+      "dbt (data build tool)",
+      "Kafka ou systèmes de streaming",
+      "Cloud data warehouses (BigQuery, Redshift, Snowflake)",
+      "Hadoop ou ecosystème Big Data"
+    ],
+    "CM05": [
+      "Docker et containerisation",
+      "CI/CD (GitHub Actions, GitLab CI)",
+      "Kubernetes ou orchestration de conteneurs"
+    ]
+  },
+  "scores_blocs": {
+    "1": 0.3029749095439911,
+    "2": 0.3051099479198456,
+    "3": 0.31234702467918396,
+    "4": 0.39661508798599243,
+    "5": 0.33232054114341736,
+    "6": 0.2894500494003296
+  },
+  "score_global": 0.32313626011212665,
+  "top_metiers": [
+    {
+      "job_id": "J02",
+      "title": "Machine Learning Engineer",
+      "score": 0.4919364005327225
+    },
+    {
+      "job_id": "J05",
+      "title": "Data Engineer",
+      "score": 0.4776435260261808
+    },
+    {
+      "job_id": "J06",
+      "title": "Business Intelligence Analyst",
+      "score": 0.47255990240308976
+    }
+  ]
+}

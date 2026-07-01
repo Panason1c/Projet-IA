@@ -1,0 +1,80 @@
+{
+  "session_id": "20260630_122726",
+  "prenom": "bon",
+  "timestamp": "2026-06-30T12:27:26.435352",
+  "reponses_likert": {
+    "L01": 4,
+    "L02": 4,
+    "L03": 4,
+    "L04": 4,
+    "L05": 4,
+    "L06": 5
+  },
+  "reponses_ouvertes": {
+    "O01": "J'ai réalisé des analyses exploratoires complètes avec pandas et numpy sur des jeux de données de plus d'un million de lignes. J'utilise SQL avancé pour les requêtes analytiques, et Matplotlib/Plotly pour la visualisation. J'ai produit des tableaux de bord BI sous Power BI pour des équipes métier.",
+    "O02": "J'ai entraîné des modèles de classification avec scikit-learn, XGBoost et PyTorch pour détecter des anomalies en production. J'utilise MLflow pour le tracking des expériences et l'évaluation des métriques (AUC, F1, RMSE). J'ai également fait du fine-tuning de réseaux de neurones avec TensorFlow/Keras.",
+    "O03": "J'ai implémenté des systèmes RAG avec LangChain et HuggingFace Transformers. J'ai fine-tuné des modèles BERT pour la classification de texte et l'analyse de sentiment. J'utilise spaCy pour la tokenisation et les embeddings SBERT pour la recherche sémantique.",
+    "O04": "J'ai conçu des pipelines ETL avec Apache Airflow et PySpark. J'ai travaillé avec BigQuery et Snowflake comme data warehouses, et utilisé dbt pour la transformation des données. J'ai également mis en place des flux Kafka pour le traitement de données en streaming.",
+    "O05": "J'ai développé des APIs REST avec FastAPI déployées via Docker et Kubernetes. J'applique les bonnes pratiques : tests unitaires avec pytest, CI/CD avec GitHub Actions, versioning avec Git/GitFlow. Mon code est documenté et respecte les standards de qualité production.",
+    "O06": "J'ai coordonné une équipe de 4 data scientists en méthodologie Agile/Scrum pour livrer un projet de recommandation. Je gère la communication avec les parties prenantes, la planification des sprints et la gestion des risques. Je veille également à la conformité RGPD des traitements de données."
+  },
+  "reponses_choix": {
+    "CM01": [
+      "Python (pandas, numpy)",
+      "SQL avancé et optimisation de requêtes",
+      "R pour l'analyse statistique"
+    ],
+    "CM02": [
+      "scikit-learn (régression, classification, clustering)",
+      "TensorFlow / Keras",
+      "PyTorch",
+      "XGBoost / LightGBM / CatBoost",
+      "AutoML (H2O, AutoSklearn)",
+      "MLflow ou autre outil de tracking d'expériences"
+    ],
+    "CM03": [
+      "Hugging Face Transformers",
+      "spaCy ou NLTK",
+      "Fine-tuning de modèles BERT/GPT",
+      "Systèmes RAG (Retrieval-Augmented Generation)",
+      "LangChain ou frameworks LLM"
+    ],
+    "CM04": [
+      "Kafka ou systèmes de streaming",
+      "Cloud data warehouses (BigQuery, Redshift, Snowflake)",
+      "Hadoop ou ecosystème Big Data"
+    ],
+    "CM05": [
+      "Tests unitaires (pytest, unittest)",
+      "Docker et containerisation",
+      "APIs REST ou gRPC",
+      "Kubernetes ou orchestration de conteneurs"
+    ]
+  },
+  "scores_blocs": {
+    "1": 0.2878328263759613,
+    "2": 0.3427696228027344,
+    "3": 0.3421686887741089,
+    "4": 0.35175278782844543,
+    "5": 0.3784092366695404,
+    "6": 0.29293859004974365
+  },
+  "score_global": 0.33264529208342236,
+  "top_metiers": [
+    {
+      "job_id": "J04",
+      "title": "NLP Engineer",
+      "score": 0.5336656455810254
+    },
+    {
+      "job_id": "J07",
+      "title": "MLOps Engineer",
+      "score": 0.5165759541771628
+    },
+    {
+      "job_id": "J02",
+      "title": "Machine Learning Engineer",
+      "score": 0.5098245292901993
+    }
+  ]
+}
