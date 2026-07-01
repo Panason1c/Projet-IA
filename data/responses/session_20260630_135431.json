@@ -1,0 +1,89 @@
+{
+  "session_id": "20260630_135431",
+  "prenom": "TestExpert",
+  "timestamp": "2026-06-30T13:54:31.696561",
+  "reponses_likert": {
+    "L01": 5,
+    "L02": 5,
+    "L03": 5,
+    "L04": 5,
+    "L05": 5,
+    "L06": 5
+  },
+  "reponses_ouvertes": {
+    "O01": "I performed complete exploratory data analyses using pandas and numpy on datasets exceeding one million rows. I use advanced SQL for analytical queries and Matplotlib, Seaborn, and Plotly for visualization. I built interactive Power BI dashboards to deliver actionable insights to business stakeholders.",
+    "O02": "I trained classification and regression models using scikit-learn, XGBoost, and PyTorch to detect anomalies in production systems. I use MLflow for experiment tracking and evaluate models using AUC, F1-score, and RMSE metrics. I also performed hyperparameter tuning and deep learning fine-tuning with TensorFlow and Keras.",
+    "O03": "I built RAG systems using LangChain and HuggingFace Transformers. I fine-tuned BERT models for text classification and sentiment analysis. I use spaCy for tokenization and lemmatization, and SBERT embeddings for semantic search applications.",
+    "O04": "I designed ETL pipelines using Apache Airflow and PySpark for large-scale data processing. I worked with BigQuery and Snowflake as cloud data warehouses and used dbt for data transformation. I also implemented Kafka streams for real-time data ingestion.",
+    "O05": "I developed REST APIs using FastAPI deployed with Docker and Kubernetes. I apply best practices including unit testing with pytest, CI/CD pipelines with GitHub Actions, and Git version control with GitFlow. All code is documented, tested, and production-ready.",
+    "O06": "I coordinated a team of four data scientists using Agile and Scrum methodologies to deliver a recommendation engine on schedule. I managed stakeholder communication, sprint planning, risk management, and GDPR compliance for all data processing workflows."
+  },
+  "reponses_choix": {
+    "CM01": [
+      "Python (pandas, numpy)",
+      "SQL avancé et optimisation de requêtes",
+      "Visualisation avec Matplotlib / Seaborn / Plotly",
+      "Tableaux de bord BI (Power BI, Tableau, Looker)",
+      "Statistiques descriptives et inférentielles",
+      "R pour l'analyse statistique"
+    ],
+    "CM02": [
+      "scikit-learn (régression, classification, clustering)",
+      "TensorFlow / Keras",
+      "PyTorch",
+      "XGBoost / LightGBM / CatBoost",
+      "AutoML (H2O, AutoSklearn)",
+      "MLflow ou autre outil de tracking d'expériences"
+    ],
+    "CM03": [
+      "Hugging Face Transformers",
+      "spaCy ou NLTK",
+      "Fine-tuning de modèles BERT/GPT",
+      "Systèmes RAG (Retrieval-Augmented Generation)",
+      "Embeddings textuels (Word2Vec, FastText, SBERT)",
+      "LangChain ou frameworks LLM"
+    ],
+    "CM04": [
+      "Apache Spark ou PySpark",
+      "Airflow ou autre orchestrateur de workflows",
+      "dbt (data build tool)",
+      "Kafka ou systèmes de streaming",
+      "Cloud data warehouses (BigQuery, Redshift, Snowflake)",
+      "Hadoop ou ecosystème Big Data"
+    ],
+    "CM05": [
+      "Git et GitFlow",
+      "Tests unitaires (pytest, unittest)",
+      "Docker et containerisation",
+      "APIs REST ou gRPC",
+      "CI/CD (GitHub Actions, GitLab CI)",
+      "Kubernetes ou orchestration de conteneurs"
+    ]
+  },
+  "scores_blocs": {
+    "1": 0.6496915221214294,
+    "2": 0.551253080368042,
+    "3": 0.5133602619171143,
+    "4": 0.5993925929069519,
+    "5": 0.626130998134613,
+    "6": 0.4905041754245758
+  },
+  "score_global": 0.5717221051454544,
+  "top_metiers": [
+    {
+      "job_id": "J01",
+      "title": "Data Analyst",
+      "score": 0.2893644372622172
+    },
+    {
+      "job_id": "J06",
+      "title": "Business Intelligence Analyst",
+      "score": 0.2701638556189007
+    },
+    {
+      "job_id": "J07",
+      "title": "MLOps Engineer",
+      "score": 0.25940230217846955
+    }
+  ]
+}

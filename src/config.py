@@ -38,9 +38,9 @@ SBERT_MODEL_NAME = "all-MiniLM-L6-v2"
 # Scoring — seuils d'interprétation du score de couverture
 # ---------------------------------------------------------------------------
 
-SEUIL_BON = 0.7        # Score >= 0.7 : bonne couverture
-SEUIL_MOYEN = 0.5      # Score 0.5–0.7 : couverture partielle
-# Score < 0.5 : couverture insuffisante
+SEUIL_BON = 0.45       # Score >= 0.45 : bonne couverture (calibré pour all-MiniLM-L6-v2 sur texte français)
+SEUIL_MOYEN = 0.30     # Score 0.30–0.45 : couverture partielle
+# Score < 0.30 : couverture insuffisante
 
 # ---------------------------------------------------------------------------
 # Poids des blocs (Wi dans la formule Coverage = Σ(Wi·Si) / Σ(Wi))
